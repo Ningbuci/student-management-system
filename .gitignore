@@ -1,0 +1,27 @@
+# 编译产物
+*.o
+*.obj
+*.exe
+*.out
+*.dSYM/
+build/
+student
+student.exe
+
+# 运行产生的数据文件
+data/*.dat
+data/*.txt
+!data/.gitkeep
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.dev
+*.layout
+*.win
+*.swp
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
